@@ -1,0 +1,208 @@
+.menu {
+	text-align: center;
+	background-color: black;
+	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	padding: 20px 0;
+}
+.menu a:hover{
+	background-color: #3D0A8A;
+}
+.header{
+	text-align: center;
+	color: white;
+	background-image: url(../img/payday2.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 200px 0;
+	background-size: cover;
+	margin-top: 98px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	padding: 12px 24px;
+	border: 1px dashed #3D0A8A;
+}
+.header a:hover{
+	background-color: #3D0A8A;
+}
+.header p{
+	margin-bottom: 50px;
+}
+body{
+	background-color: black;
+}
+.about-company{
+	color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0;
+	margin-bottom: 50px;
+}
+.about-company img{
+	width: 250px;
+	float: right;
+	vertical-align: top;
+}
+.member{
+	width: 20%;
+	display: inline-block;
+	margin: 20px 10px;
+	border: 2px solid  #3D0A8A;
+	padding: 20px;
+	vertical-align: top;
+}
+.member img{
+	width: 100%;
+	height: 200px;
+}
+.team{
+	color: white;
+	padding: 40px 0;
+}
+.team h2{
+	text-align: center;
+}
+.member a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	border: 1px dashed #3D0A8A;
+	padding: 14px 0;
+	text-align: center;
+	color: #3D0A8A;
+	font-size: 20px;
+}
+.member a:hover{
+	color: black;
+	background-color: #3D0A8A;
+}
+.member h3{
+	font-size: 24px;
+}
+.member .position{
+	text-transform: uppercase;
+}
+.donates {
+	color: white;
+	text-align: center;
+}
+
+.donate li{
+	list-style: none;
+	border: 1px solid #3D0A8A;
+	padding: 16px 0;
+			
+}
+
+.donate .donate-name{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 32px 0;
+	background-color: #3D0A8A;
+}
+
+.donate{
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	padding: 0;
+	vertical-align: middle;
+	min-width: 150px;
+}
+.donate .silk{
+	padding: 48px 0;
+}
+.donate li:last-child{
+	padding: 24px 0;
+}
+.donate a{
+	text-decoration: none;
+	border: 1px dashed #3D0A8A;
+	padding: 12px 24px;
+}
+.donate a:hover{
+	background-color: #3D0A8A;
+	color: black;	
+}
+.donate .price{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contacts{
+	color: white;
+	text-align: center;
+	padding: 50px 0;
+}
+.swe{
+	background-image: url(../img/se.svg);
+}
+.usa{
+	background-image: url(../img/us.svg)
+}
+.contact-phone{
+	background-image: url(../img/phone.png);
+}
+.contact-email{
+	background-image: url(../img/mail.png);
+}
+.contact-info{
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	background-size: 20px 18px;
+	padding-left: 30px;
+	margin-left: 5%;
+}
+.contacts input{
+	padding: 8px;
+	width: 90%;
+	background-color: black;
+	border: 1px solid #3D0A8A; 
+	color: white;
+	outline: none;
+}
+.contacts button{
+	border: 1px solid #3D0A8A;
+	color: #3D0A8A;
+	background-color: black;
+	padding: 10px 20px;
+}
+.contacts button:hover{
+	background-color: #3D0A8A;
+	color: black;
+}
+@media(max-width: 575px){
+	.menu{
+		position: static;
+	}
+	.menu a{
+		display: block;
+		width: 100%;
+	}
+	.header{
+		margin-top: 0;
+		padding: 60px 0;
+	}
+	.about-company img{
+		float: none;
+		width: 100%;
+	}
+	.member{
+		width: 80%;
+	}
+	.donate{
+		width: 80%;
+	}
+}
+
